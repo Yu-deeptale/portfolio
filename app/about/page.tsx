@@ -3,7 +3,7 @@ export default function About() {
     <div className="py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6">私について</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-6">profile</h1>
           <p className="text-xl text-gray-600">
             フロントエンド開発者として、ユーザー体験を重視したWebアプリケーションを作成しています
           </p>
@@ -17,8 +17,8 @@ export default function About() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">経歴</h2>
             <p className="text-gray-600 mb-6">
-              Web開発の分野で数年の経験を積み、特にReact、Next.js、TypeScriptを使用したモダンなフロントエンド開発を専門としています。
-              ユーザビリティとパフォーマンスを重視し、アクセシブルで使いやすいWebアプリケーションの開発に取り組んでいます。
+              在学中に様々なITスキルと経験を積み、特にReact、Next.js、TypeScriptを使用したモダンなフロントエンド開発を専門としています。
+              アクセシブルで使いやすいWebアプリケーションの開発に取り組んでいます。
             </p>
             
             <h3 className="text-xl font-semibold text-gray-900 mb-3">専門分野</h3>

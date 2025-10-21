@@ -11,7 +11,7 @@ export default function Header() {
     { name: '概要', href: '/about' },
     { name: 'スキル', href: '/skills' },
     { name: 'プロジェクト', href: '/projects' },
-    { name: 'お問い合わせ', href: '/contact' },
+    { name: '連絡先', href: '/contact' },
   ];
 
   return (

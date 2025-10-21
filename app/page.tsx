@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <>
@@ -8,20 +6,18 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              こんにちは、私は
-              <span className="text-blue-600 block">フロントエンド開発者</span>
-              です
+              <span className="text-blue-600 block">Welcome!</span>
+              深尾 悠のポートフォリオサイトへようこそ！
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              ユーザー体験を重視したモダンなWebアプリケーションを作成します。
-              React、Next.js、TypeScriptを使用して、高品質なソリューションを提供します。
+              ECCコンピュータ専門学校で学んだITスキルを活かして日々制作に励んでおります。企画・フロントエンド開発を得意です。
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors">
                 プロジェクトを見る
               </button>
               <button className="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors">
-                お問い合わせ
+                連絡先
               </button>
             </div>
           </div>
@@ -42,12 +38,17 @@ export default function Home() {
             {[
               { name: 'React', color: 'bg-blue-100 text-blue-800' },
               { name: 'Next.js', color: 'bg-gray-100 text-gray-800' },
-              { name: 'TypeScript', color: 'bg-blue-100 text-blue-800' },
+              { name: 'TypeScript', color: 'bg-blue-100 text-sky-800' },
               { name: 'Tailwind CSS', color: 'bg-cyan-100 text-cyan-800' },
               { name: 'JavaScript', color: 'bg-yellow-100 text-yellow-800' },
               { name: 'HTML/CSS', color: 'bg-orange-100 text-orange-800' },
-              { name: 'Git', color: 'bg-red-100 text-red-800' },
+              { name: 'Node.js', color: 'bg-red-100 text-red-800' },
               { name: 'Figma', color: 'bg-purple-100 text-purple-800' },
+              { name: 'MySQL', color: 'bg-purple-100 text-emerald-800' },
+              { name: 'Docker', color: 'bg-blue-100 text-sky-800' },
+              { name: 'AWS', color: 'bg-yellow-100 text-amber-800' },
+              { name: 'Flutter', color: 'bg-pink-100 text-pink-800' },
+              
             ].map((skill) => (
               <div key={skill.name} className="text-center">
                 <div className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-medium ${skill.color}`}>
@@ -95,22 +96,6 @@ export default function Home() {
               すべてのプロジェクトを見る
             </button>
           </div>
-        </div>
-      </section>
-
-      {/* CTAセクション */}
-      <section className="bg-blue-600 py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            一緒にプロジェクトを始めませんか？
-          </h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
-            新しいプロジェクトのご相談や、お仕事のご依頼をお待ちしています。
-            お気軽にお問い合わせください。
-          </p>
-          <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors">
-            お問い合わせする
-          </button>
         </div>
       </section>
     </>

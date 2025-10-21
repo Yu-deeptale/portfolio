@@ -40,10 +40,10 @@ export default function Footer() {
           {/* ブランド */}
           <div className="col-span-1">
             <Link href="/" className="text-xl font-bold">
-              Portfolio
+              深尾　悠
             </Link>
             <p className="mt-2 text-gray-400 text-sm">
-              フロントエンド開発者として、ユーザー体験を重視したWebアプリケーションを作成しています。
+              ECCコンピュータ専門学校でITスキルを身に着けています。<br />得意分野は企画・フロントエンド開発です。
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/contact" className="text-gray-400 hover:text-white text-sm">
-                  お問い合わせ
+                  連絡先
                 </Link>
               </li>
             </ul>
